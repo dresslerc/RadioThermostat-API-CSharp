@@ -1,0 +1,31 @@
+﻿<Window x:Class="RadioThermostat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="311" Width="588" Loaded="Window_Loaded">
+    <Grid>
+        <GroupBox Header="Mode" Height="57" HorizontalAlignment="Left" Margin="10,10,0,0" Name="groupBox1" VerticalAlignment="Top" Width="343">
+            <Grid>
+                <Button Content="Cool" Height="23" HorizontalAlignment="Left" Margin="6,6,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+                <Button Content="Off" Height="23" HorizontalAlignment="Left" Margin="87,6,0,0" Name="button2" VerticalAlignment="Top" Width="75" Click="button2_Click" />
+                <Button Content="Heat" Height="23" HorizontalAlignment="Left" Margin="168,6,0,0" Name="button3" VerticalAlignment="Top" Width="75" Click="button3_Click" />
+                <Button Content="Auto" Height="23" HorizontalAlignment="Left" Margin="249,6,0,0" Name="button4" VerticalAlignment="Top" Width="75" Click="button4_Click" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Fan" Height="58" HorizontalAlignment="Left" Margin="10,73,0,0" Name="groupBox2" VerticalAlignment="Top" Width="343">
+            <Grid>
+                <Button Content="Auto" Height="23" HorizontalAlignment="Left" Margin="6,6,0,0" Name="button5" VerticalAlignment="Top" Width="75" Click="button5_Click" />
+                <Button Content="Auto/Cir" Height="23" HorizontalAlignment="Left" Margin="87,6,0,0" Name="button6" VerticalAlignment="Top" Width="75" Click="button6_Click" />
+                <Button Content="On" Height="23" HorizontalAlignment="Left" Margin="168,6,0,0" Name="button7" VerticalAlignment="Top" Width="75" Click="button7_Click" />
+            </Grid>
+        </GroupBox>
+        <Label Content="Absolute Target Heat:" Height="28" HorizontalAlignment="Left" Margin="10,137,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Absolute Target Cool:" Height="28" HorizontalAlignment="Left" Margin="10,171,0,0" Name="label2" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="139,139,0,0" Name="textBox1" Text="30" VerticalAlignment="Top" Width="74" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="139,173,0,0" Name="textBox2" Text="20" VerticalAlignment="Top" Width="74" />
+        <Button Content="Set" Height="23" HorizontalAlignment="Left" Margin="219,139,0,0" Name="button8" VerticalAlignment="Top" Width="40" Click="button8_Click" />
+        <Button Content="Set" Height="23" HorizontalAlignment="Left" Margin="219,172,0,0" Name="button9" VerticalAlignment="Top" Width="40" Click="button9_Click" />
+        <Label Content="0" FontFamily="Arial" FontSize="55" Height="75" HorizontalAlignment="Left" Margin="373,27,0,0" Name="lblActualTemp" VerticalAlignment="Top" Width="165" />
+        <RadioButton Content="Fahrenheit" Height="16" HorizontalAlignment="Left" Margin="16,214,0,0" Name="radF" VerticalAlignment="Top" Checked="radF_Checked" />
+        <RadioButton Content="Celsius" Height="16" HorizontalAlignment="Left" IsChecked="True" Margin="16,236,0,0" Name="radC" VerticalAlignment="Top" Checked="radC_Checked" />
+    </Grid>
+</Window>
