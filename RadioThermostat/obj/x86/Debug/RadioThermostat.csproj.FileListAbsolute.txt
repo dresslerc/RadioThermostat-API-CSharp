@@ -20,3 +20,5 @@ C:\Users\Carsten\documents\visual studio 2010\Projects\RadioThermostat\RadioTher
 C:\Users\Carsten\documents\visual studio 2010\Projects\RadioThermostat\RadioThermostat\bin\Debug\Newtonsoft.Json.Net35.xml
 C:\Users\Carsten\documents\visual studio 2010\Projects\RadioThermostat\RadioThermostat\obj\x86\Debug\RadioThermostat.exe
 C:\Users\Carsten\documents\visual studio 2010\Projects\RadioThermostat\RadioThermostat\obj\x86\Debug\RadioThermostat.pdb
+C:\Users\dresslerc\Documents\GitHub\RadioThermostat-API-CSharp\RadioThermostat\obj\x86\Debug\RadioThermostat.exe
+C:\Users\dresslerc\Documents\GitHub\RadioThermostat-API-CSharp\RadioThermostat\obj\x86\Debug\RadioThermostat.pdb
